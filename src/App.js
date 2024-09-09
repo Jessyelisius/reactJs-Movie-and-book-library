@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-do
 import Contact from './directory/contact';
 import List from './movie/list';
 import Home from './pages/home';
-import BookPage from './pages/bookPage';
 import Cast from './movie/casts';
 import BookDetails from './library/bookDetails';
 

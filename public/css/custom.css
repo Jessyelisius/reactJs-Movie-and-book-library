@@ -1,7 +1,7 @@
 .topbar {
     height: 100px;
     width: 100%;
-    background-image: url(../assets/pexels-ali-smith-1223678-2768089.jpg);
+    background-image: url('../assets/pexels-ali-smith-1223678-2768089.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     
