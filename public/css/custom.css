@@ -1,0 +1,189 @@
+.topbar {
+    height: 100px;
+    width: 100%;
+    background-image: url(../assets/pexels-ali-smith-1223678-2768089.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.search-area{
+    background-color: #52605c;
+    width: 50rem;
+    height: 50px;
+    opacity: 0.9;
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+.search-area input{
+    height: 100%;
+    width: 98%;
+    background-color: transparent;
+    border: 8px;
+    outline: none;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+   
+}
+
+.search-input::placeholder{
+    color: #fff;
+}
+.White{
+    color: #fff;
+}
+
+.white{
+    color: #fff;
+}
+
+.main-content{
+    /* background-color: #000;; */
+    height: 100vh;
+    padding: 20px;
+
+}
+
+.search-wrapper{
+    background-color: #3b3c3c;
+    max-height: 500px;
+    width: 50rem;
+    outline:none;
+    position: absolute;
+    top: 85px;
+    border-radius: 10px;
+    overflow-x: auto;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+
+}
+
+.search-wrapper a {
+    height: 50px;
+    /* background-color: aquamarine; */
+    border: 1px solid #515252b1;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: flex;
+    
+}
+
+.search-wrapper>a>h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #e0e0e0;    
+}
+.search-wrapper a:not(:last-child){
+    border-bottom: none;
+
+}
+
+.search-wrapper a:hover{
+    background-color: rgba(125, 125, 125);
+}
+
+.search-wrapper span{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.movie-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-wrapper{
+    position: relative;
+}
+.card-wrapper img{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.card-wrapper h5{
+    font-size: 20px;
+    color: fff;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.rating{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    color: fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 4px solid #B4D990;
+    background: #000;
+
+}
+
+/*  */
+
+search-wrapper a span{
+    color: #727980;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  
+  .movie-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .card-wrapper img{
+    height: 200px;
+    width: 140px;
+    border-radius: 15px;
+  }
+  
+  .card-wrapper h5{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  
+  .card-wrapper span{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 15px;
+  }
+  
+  .card-wrapper{
+    position: relative;
+    margin-right: 10px;
+    width: 140px;
+  }
+  
+  .rating{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #38DD96;
+    position: absolute;
+    background-color: #111111;
+    top: 0;
+  }
+  
+  .rating span{
+    font-weight: 500;
+  }
+
